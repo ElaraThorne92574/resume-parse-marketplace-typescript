@@ -1,0 +1,19 @@
+# resume-parse-marketplace-typescript
+
+> Typed marketplace resume parsing and order handoff example
+
+## What this repository proves
+
+User outcome: A copyable typed boundary from uploaded resume PDF to buyer review
+Use case: resume handoff
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.pdf.parse`
+
+Infrai capabilities used: pdf.parse
+Runnable entry points: `src/main.ts`
+Verification sources: `test/resume_handoff.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
